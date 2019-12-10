@@ -40,7 +40,7 @@ VueJS, NodeJs, MySQL/mongoDB
 $ git clone https://github.com/Edmund1645/naijahacks-edutec
 ```
 
-## Install dependencies
+## Install dependencies in both folders (client and server)
 
 with yarn
 
@@ -56,4 +56,18 @@ $ npm install
 
 ## run development server
 
-_config coming soon_
+### For frontend development
+
+```bash
+$ cd client
+$ npm run serve
+```
+
+Open port `localhost:8080` in your browser
+
+### For backend development
+
+```bash
+$ cd server
+$ npm start
+```

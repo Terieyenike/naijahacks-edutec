@@ -1,4 +1,64 @@
 //  all other global styles
 body {
   background: #f0f0f0;
+  color: $normal-font-color;
+}
+nav.navbar {
+  background: $dark-green;
+  color: $white;
+
+  .navbar-brand {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .nav-link {
+    color: $white !important;
+
+    &:hover {
+      opacity: 0.8;
+      transition: color 0.3s;
+    }
+  }
+}
+
+.dropdown-menu {
+  background: $dark-green;
+  .dropdown-item {
+    color: $white;
+
+    &:hover {
+      background: lighten($color: $dark-green, $amount: 5);
+      transition: 0.3s;
+    }
+  }
+}
+
+.google-login {
+  background: transparent;
+  color: $normal-font-color;
+  border: 1px solid $normal-font-color;
+}
+
+.facebook-login {
+  background: $facebook-blue;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: lighten($color: $facebook-blue, $amount: 5);
+    transition: background 0.3s;
+  }
+}
+.text-green {
+  color: $dark-green;
+}
+
+.outlined {
+  border: 1px solid $normal-font-color;
+}
+.space-top {
+  margin-top: 7rem;
 }
